@@ -49,7 +49,7 @@ html
       .map-overlay-inner
         h2 Significant earthquakes in 2023
         label#month
-        input#slider(type='range', min='0', max='11', step='1', value='0')
+        input#slider(type='range', min='0', max='11', step='1', value='1')
       .map-overlay-inner
         #legend.legend
           .bar
@@ -62,7 +62,7 @@ html
       // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
       style: 'mapbox://styles/mapbox/light-v11',
       projection: 'winkelTripel',
-      center: [-45, 0],
+      center: [39.26918758989865, 35.10874745968027],
       zoom: 0.25
       });
       const months = [
